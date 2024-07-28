@@ -1,0 +1,31 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+}
+
+.nav {
+  z-index: 999;
+}
+.menue-option {
+  display: flex;
+  gap: 73px;
+}
+.avater {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.option {
+  /* color: #1d1e20; */
+  color: navy;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.option:hover {
+  color: #727586;
+}
